@@ -4,6 +4,14 @@
 Here, we're going to develop an application that uses Morphia to map our Java objects into a document-oriented database like MongoDB.
 Then, we will compare it with a key-value database like Redis.
 
+## Lancer le projet :
+
+Téléchargez le projet et importez le en tant que projet Maven dans un IDE.
+
+```MongoDB``` : Lancez la classe ProgMongoDB dans le package fr.istic.miage.main.
+
+```Redis``` : Lancez la classe ProgRedis dans le package fr.istic.miage.main.
+
 ## Questions
 ### Les limites d'une base de données orientée documents :
  - Le schéma des donnée n'est pas difinie ce qui influence la pertinence des données fournie par un élément.
