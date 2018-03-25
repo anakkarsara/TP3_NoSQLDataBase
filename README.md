@@ -11,7 +11,7 @@ Then, we will compare it with a key-value database like Redis.
 ### Préparer l'environnement :
 Vous aurez besoin d'installer MongoDB, pour cela vous pouvez suivre ce tutoriel détaillé sur ce lien :
 ``` https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/ ```
-Voir aussi le dossier :  Available in [mongodb-win32-i386-2.2.3](https://github.com/anakkarsara/TP3_NoSQLDataBase/tree/master/mongodb-win32-i386-2.2.3)
+Voir aussi le dossier : [mongodb-win32-i386-2.2.3](https://github.com/anakkarsara/TP3_NoSQLDataBase/tree/master/mongodb-win32-i386-2.2.3)
 
 Ensuite, téléchargez le projet et importez le en tant que projet Maven dans un IDE.
 
