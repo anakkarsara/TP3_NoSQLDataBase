@@ -20,10 +20,10 @@ public class ProgMongoDB {
 		p.setName("Tintin");
 
 		Address address = new Address();
-		address.setCity("Some city");
-		address.setStreet("123 Some street");
-		address.setPostCode("15800");
-		address.setCountry("Some country");
+		address.setCity("Rennes");
+		address.setStreet("35, av professeur Charles Foulon");
+		address.setPostCode("35000");
+		address.setCountry("France");
 		address.setPerson(p);
 		//set address
 		p.addAddress(address);
