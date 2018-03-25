@@ -4,9 +4,15 @@
 Here, we're going to develop an application that uses Morphia to map our Java objects into a document-oriented database like MongoDB.
 Then, we will compare it with a key-value database like Redis.
 
+
+
 ## Lancer le projet :
 
-Téléchargez le projet et importez le en tant que projet Maven dans un IDE.
+### Préparer l'environnement :
+Vous aurez besoin d'installer MongoDB, pour cela vous pouvez suivre ce tutoriel détaillé sur ce lien :
+``` https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/ ```
+
+Ensuite, téléchargez le projet et importez le en tant que projet Maven dans un IDE.
 
 ```MongoDB``` : Lancez la classe ProgMongoDB dans le package fr.istic.miage.main.
 
