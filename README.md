@@ -4,5 +4,15 @@
 Here, we're going to develop an application that uses Morphia to map our Java objects into a document-oriented database like MongoDB.
 Then, we will compare it with a key-value database like Redis.
 
-## Prepare your environment
-### MongoDB
+## Questions
+### Les limites d'une base de données orientée documents :
+ - Le schéma des donnée n'est pas difinie ce qui influence la pertinence des données fournie par un élément.
+ - Moins de conltrole sur les requêtes.
+ 
+ ### Les types de données stockés dans Redis et les types de requêtes :
+Redis est orienté (clé,valeur), donc on peut stocker des couples de valeurs dont la clé peut avoir plusieurs valeurs.
+Ces valeurs peuvent être String, Hash, Sets ou Listes.
+Types de requêtes :
+ - ```GET``` : Consulter les valeur d'une clé,
+ - ```SET``` : Ajouter une valeur,
+ - ```DEL``` : supprimer une valeur.
